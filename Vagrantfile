@@ -66,7 +66,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
   #   apt-get update
   #   apt-get install -y apache2
-  yum install -y java node vim ruby-devel wget
+  yum install -y java git vim ruby-devel wget
   
   SHELL
 end
