@@ -1,0 +1,3 @@
+[submodule "app/proteus-ruby-e2e-tests"]
+	path = app/proteus-ruby-e2e-tests
+	url = git@github.com:bbc/proteus-ruby-e2e-tests.git
